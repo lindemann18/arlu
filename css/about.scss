@@ -1,0 +1,45 @@
+//Pagina de about
+$widthfoto : 250px;
+.arluimg{
+	background-image: url('img/arlu.jpg');
+    background-repeat: no-repeat;
+    height: $widthfoto;
+    @include border-radius($widthfoto/2);
+    background-size: 155%;
+    width: $widthfoto;
+    background-clip: padding-box;
+    background-position: -62px 0px;
+    margin-bottom: 4%;
+}
+.Abouttext{    margin-left: 15%; font-family:$geneva; }
+
+//media queries
+@media (min-width: 900px) and (max-width:1000px) {
+	.arluimg{margin-left: 28%;}
+	@include nomargintext();
+
+}
+
+@media (min-width: 701px) and (max-width:899px) {
+	.arluimg{margin-left: 34%;}
+	@include nomargintext();
+}
+
+@media (min-width: 500px) and (max-width:700px) {
+	.arluimg{margin-left: 26%;}
+	@include nomargintext();
+}
+@media (min-width: 375px) and (max-width:499px) {
+	.Abouttext {margin-left: 4%;}
+	.arluimg{margin-left: 16%;}
+}
+
+@media (min-width: 360px) and (max-width:374px) {
+	.arluimg{margin-left: 20%;}
+	@include nomargintext();
+}
+
+@media (min-width: 320px) and (max-width:359px) {
+	.arluimg{margin-left: 13%;}
+	.Abouttext {margin-left: 6%;}
+}
