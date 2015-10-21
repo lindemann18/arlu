@@ -1,0 +1,21 @@
+.navbar-default { background-color: inherit; border: 0; margin-top: 5%; }
+.navbar-default .navbar-nav li a { color: #000; padding: 10px 7px; }
+.navbar-default .navbar-nav li a:after { content: "\00a0 \00a0   |"; }
+.navbar-default .navbar-nav li a:hover { color: #EC6EA6; background-color: #fff; }
+.navbar-default .navbar-nav li a.dropdown-toggle { background-color: #fff !important; }
+.navbar-default .navbar-nav li.active a { color: #EC6EA6; background: #fff; }
+.navbar-default .navbar-nav li.active a:hover { background: #fff; }
+.navbar-default .navbar-nav li:last-child a:after { content: ""; }
+.navbar-default .navbar-nav li .open a { background-color: #fff; }
+
+.navbar-nav { margin-left: 19%; }
+
+.navbar-header { margin-left: 22% !important; }
+
+.container { padding-top: 3%; margin-bottom: 7%; }
+
+footer { border-top: 1px solid #000; margin-bottom: 3%; }
+
+@media (min-width: 360px) and (max-width: 765px) { .navbar-default .navbar-nav li a:after { content: ""; } }
+
+/*# sourceMappingURL=arlus.css.map */
